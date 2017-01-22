@@ -1,0 +1,20 @@
+html
+    head
+        title= title
+    body
+        h1= "URL Shortener Microservice"
+        div
+            h3= "Example creation usage"
+            div
+                code= "https://ths.website.herokuapp.com/new/https://www.google.com"
+            div 
+                code= "https://this.website.herokuapp.com/new/http://foo.com:80"
+        div 
+            h3= "Example of ouput"
+            div
+                code= '{"original_url":"http://foo.com:80", "short_url":"https://little-url.herokuapp.com/8170"}'
+        div 
+            h3= "Usage"
+            p once created if you click on the shortened url you'll be redirected to full url
+            
+    
